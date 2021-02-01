@@ -1,0 +1,28 @@
+th:first-child {
+    background-color: rgb(170, 170, 255);
+}
+
+td:first-child {
+    background-color: rgb(170, 170, 255);
+}
+
+th:last-child {
+    background-color: rgb(204, 204, 204);
+}
+
+td:last-child {
+    background-color: rgb(204, 204, 204);
+}
+
+td:nth-child() {
+    background-color: rgb(204, 204, 255);
+}
+
+table, th, td {
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+table th, td {
+    box-shadow: 2px 2px 2px blue;
+}
